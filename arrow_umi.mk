@@ -12,20 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
 # Inherit from the Lineage configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_QUICK_TAP := true
-
-PRODUCT_NAME := aosp_umi
-PRODUCT_DEVICE := umi
+PRODUCT_NAME := arrow_umi
+PRODUCT_DEVICE := cmi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.5.1.28.DEV:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/cmi/cmi:12/SKQ1.211006.001/V13.0.6.0.SJBCNXM:user/release-keys
