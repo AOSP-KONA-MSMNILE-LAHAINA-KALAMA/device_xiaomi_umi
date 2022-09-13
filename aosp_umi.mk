@@ -14,9 +14,6 @@ $(call inherit-product, device/xiaomi/umi/device.mk)
 # Inherit from the Lineage configuration.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Gapps
-$(call inherit-product, vendor/extra/product.mk)
-
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
