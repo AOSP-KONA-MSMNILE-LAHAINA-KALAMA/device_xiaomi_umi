@@ -204,6 +204,9 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
+# Camera - from MIUI v13.0.6
+vendor/lib64/libmialgoengine.so|c712504cc361893d2bfc3944850cc8229548a2d0
+
 # Camera
 vendor/lib64/camera/com.qti.actuator.umi_dw9800_ov16e10.so
 vendor/lib64/camera/com.qti.actuator.umi_gc021m1_macro_dw9714.so
@@ -305,7 +308,6 @@ vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmialgo_video_colourkeeping.so
 vendor/lib64/libmialgo_video_enhance.so
 vendor/lib64/libmialgo_video_seg.so
-vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmmcamera_faceproc.so
