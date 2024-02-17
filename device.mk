@@ -196,6 +196,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    AOSPAUmiFrameworks \
     AOSPAUmiSystemUI \
     FrameworksResTarget \
     UmiFrameworks \
