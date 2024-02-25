@@ -505,6 +505,9 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/umi_ois.coeff
 vendor/firmware/umi_ois.prog
 
+# Camera-configs
+vendor/etc/public.libraries.txt
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
