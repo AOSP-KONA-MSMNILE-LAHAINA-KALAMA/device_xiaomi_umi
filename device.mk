@@ -196,8 +196,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    P404UmiSettings \
-    P404UmiSystemUI \
+    AOSPAUmiSystemUI \
     FrameworksResTarget \
     UmiFrameworks \
     UmiSystemUI \
