@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
     AOSPAUmiSystemUI \
     FrameworksResTarget \
     SettingsResCommon \
+    SystemUIResCommon \
     UmiFrameworks \
     UmiSystemUI \
     WifiResTarget
