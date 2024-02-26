@@ -274,9 +274,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinyxml2
 
-# USB
-PRODUCT_HAS_GADGET_HAL := true
-
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
